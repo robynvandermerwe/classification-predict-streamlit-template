@@ -285,7 +285,7 @@ def main():
 			st.subheader("Address")
 			img = Image.open("resources/map.png")
 			st.image(img)
-			st.markdown("1004 Otto du Plesis")
+			st.markdown("106 Loop Street")
 			st.markdown("Cape Town")
 			st.markdown("8001")
 
@@ -294,12 +294,12 @@ def main():
 			st.markdown("Monday - Friday")
 			st.markdown("08h00 - 17h00 GMT+2")
 			st.markdown("(+27) 021 554 1091")
-			st.markdown("(+27) 084 553 4721")
+			st.markdown("(+27) 081 463 8961")
 
 		with col3:
 			st.subheader("Email")
-			st.markdown("robynvandermerwe@gmail.com")
-			st.markdown("robynvandermerwe@yahoo.com")
+			st.markdown("robyn@agrotech.com")
+			st.markdown("morema@agrotech.com")
 
 
 	# Building out the Home page
@@ -450,8 +450,6 @@ def main():
 		if tweet == 'News' and tweet_type == 'RT':
 			st.write(rt_nw[['message']])
 
-		st.sidebar.subheader('   ')
-		
 		logo = Image.open('resources/Logo1-removebg-preview.png')
 		st.sidebar.image(logo)
 
